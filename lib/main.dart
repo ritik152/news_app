@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
       FirebaseServices.listener();
     });
     checkInitialMessage();
-
+///Project
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'News App',

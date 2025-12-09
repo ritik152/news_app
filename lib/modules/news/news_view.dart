@@ -24,6 +24,14 @@ class NewsView extends StatelessWidget {
         title: TText("Latest News", color: AppColors.darkTextPrimary),
         actions: [
 
+           ///Refresh
+          IconButton(
+            icon: const Icon(Icons.refresh, color: Colors.white),
+            onPressed: () {
+              controller.loadNews();
+            },
+          ),
+          
           ///Send Notification
           IconButton(
             icon: const Icon(Icons.notification_add, color: Colors.white),
